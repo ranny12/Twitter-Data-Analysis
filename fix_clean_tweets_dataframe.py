@@ -40,7 +40,7 @@ class Clean_Tweets:
     df['Inserted'] =  pd.to_datetime(df['Inserted'], infer_datetime_format=True)
    
     
-    self.df = self.df[df['inserted'] >= '2020-12-31' ]
+    self.df = self.df[df['inserted'] >= '2020-12-31']
 
     return self.df   
    
